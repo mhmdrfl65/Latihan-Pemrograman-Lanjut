@@ -1,0 +1,38 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package HP;
+
+/**
+ *
+ * @author Muhammad Rafael
+ */
+public class Bank {
+    int saldo, simpanuang, ambiluang;
+    
+    public Bank (){
+        this.saldo=100000;
+        this.ambiluang=150000;
+        this.simpanuang=500000;
+        
+    }
+    
+    public void saldo (int saldo, int simpanuang, int ambiluang){
+        System.out.println("Selamat Datang di Bank HT");
+        System.out.println("Saldo saat ini : " + "Rp. " + saldo);
+        
+    }
+    public void simpanuang (int simpanuang){
+        saldo = saldo+simpanuang;
+        System.out.println("Simpan Uang    = Rp. " + simpanuang);
+        System.out.println("Saldo saat ini : Rp. " + saldo);
+        System.out.println("================================");
+    }     
+    public void ambiluang (int ambiluang){
+        saldo = saldo-ambiluang;
+        System.out.println("Ambil Uang     = Rp. " + ambiluang);
+        System.out.println("Saldo saat ini : Rp. " + saldo);
+    }
+    
+}
