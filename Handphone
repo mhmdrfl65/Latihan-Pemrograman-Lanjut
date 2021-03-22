@@ -1,0 +1,28 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package HP;
+
+/**
+ *
+ * @author Muhammad Rafael
+ */
+public class Handphone {
+    String Hidupkan;
+    String LakukanPanggilan;
+    String KirimSMS;
+    String Matikan;
+    
+    public void Handphone (){
+        System.out.println("Handphone Hidup" + Hidupkan);
+        System.out.println("Kring, Kring, Kring" + LakukanPanggilan);
+        System.out.println("Dung, Dung" + KirimSMS);
+        System.out.println("Handphone Mati" + Matikan);
+
+
+
+        
+    }
+           
+}
