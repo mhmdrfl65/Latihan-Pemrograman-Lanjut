@@ -1,0 +1,16 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package HP;
+
+/**
+ *
+ * @author Muhammad Rafael
+ */
+public class MatematikaCanggih extends Matematika{
+    
+    void modulus(int a,int b){
+        System.out.println("Modulus : "+a+"%"+b+" = "+ (a%b));
+    }
+}
