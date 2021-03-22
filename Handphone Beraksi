@@ -1,0 +1,25 @@
+package HP;
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Muhammad Rafael
+ */
+public class HandphoneBeraksi {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Handphone HandphoneS10 = new Handphone();
+                    HandphoneS10.Hidupkan = ". . .";
+                    HandphoneS10.LakukanPanggilan = "... Panggilan Dilakukan";
+                    HandphoneS10.KirimSMS = ". . . SMS Berhasil Terikirim";
+                    HandphoneS10.Matikan = ". . .";
+                    HandphoneS10.Handphone();
+    }
+}
