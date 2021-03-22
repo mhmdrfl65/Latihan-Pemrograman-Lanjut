@@ -1,0 +1,26 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package HP;
+
+/**
+ *
+ * @author Muhammad Rafael
+ */
+public class MatematikaBeraksi {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args){
+         //membuat object
+        Matematika AksiMatematika = new Matematika();
+ 
+        //memanggil method dan memberi nilai parameter
+        AksiMatematika.pertambahan(20,20);
+        AksiMatematika.pengurangan(10,5);
+        AksiMatematika.perkalian(10,20);
+        AksiMatematika.pembagian(21,2);
+    }
+}
