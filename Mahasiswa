@@ -1,0 +1,24 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package HP;
+
+/**
+ *
+ * @author Muhammad Rafael
+ */
+public class Mahasiswa {
+    String Membaca;
+    String Nyontek;
+    String Modifikasi;
+    
+    public void Handphone (){
+        System.out.println(". . . " + Membaca);
+        System.out.println("Menganalisis " + Nyontek);
+        System.out.println("Melakukan Berubahan " + Modifikasi);
+     
+        
+}
+
+}
