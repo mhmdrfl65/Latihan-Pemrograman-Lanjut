@@ -1,0 +1,25 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package HP;
+
+/**
+ *
+ * @author Muhammad Rafael
+ */
+public class MobilBeraksi {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Mobil MobilRafael = new Mobil();
+        
+        MobilRafael.warna = "Pink";
+        MobilRafael.tahunProduksi = 1960;
+                
+       System.out.println("Warna: " + MobilRafael.warna);
+       System.out.println("Tahun Produksi: " + MobilRafael.tahunProduksi);
+    }
+}
