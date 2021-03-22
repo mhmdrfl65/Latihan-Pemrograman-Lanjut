@@ -1,0 +1,22 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package HP;
+
+/**
+ *
+ * @author Muhammad Rafael
+ */
+public class BankBeraksi {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Bank BankHT = new Bank();
+        BankHT.saldo(100000, 500000, 150000);
+        BankHT.simpanuang(500000);
+        BankHT.ambiluang(150000);
+    }
+}
